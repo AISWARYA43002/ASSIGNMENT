@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+   background-size: cover;
+   animation: slideshow 12s infinite;
+}
+
+header {
+    background-color: white;
+}
+
+.container {
+    max-width: 900px;
+}
+
+h3 {
+    color:white;
+}
+
+p {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.social-icons img {
+    width: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+.footer1{
+    margin-bottom: 100%;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    margin-top: 1%;
+    width: auto;
+    padding-right: 20px; }
+
+
+.navigation a{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+border: solid;
+border-color:black;
+padding: 10px;
+color:white;
+margin: 5px;
+background-color: black;
+}
+.navigation a:hover{
+background-color: rgb(229, 236, 24);
+color: black;
+}
+@keyframes slideshow {
+    0% { background-image: url('IMAGES/book.webp'); }
+    33% { background-image: url('IMAGES/login.jpg');}
+    66% { background-image: url('IMAGES/new.jpg'); }
+    100% { background-image: url('IMAGES/like.jpg');}
+}

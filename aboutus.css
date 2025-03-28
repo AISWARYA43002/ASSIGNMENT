@@ -1,0 +1,98 @@
+body{
+    background-image: url("IMAGES/like.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cadetblue ;
+    
+}
+/* .about{
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    
+} */
+.col-md-6{
+        color: aliceblue;
+        background-color: cadetblue ;
+        padding: 10px;
+        /* padding-left: 5px; */
+        margin-bottom: 2px;
+       
+    }
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+    p {
+        color: #555;
+    }
+    .one{
+        color: black;
+    }
+    .two{
+        color: black;
+    }
+    .navigation {
+        display: flex;
+        
+        justify-content: flex-end; 
+        align-items: center; 
+        margin-top: 1%;
+        width: auto; 
+        padding-right: 20px;
+    }
+    
+
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: solid;
+    border-color:white;
+    padding: 10px;
+    color:white;
+   margin: 5px;
+   background-color: black;
+}
+.navigation a:hover{
+    background-color: rgb(229, 236, 24);
+    color:white;
+}
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #ea1414;
+}
+
+p {
+    color: #555;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+} */

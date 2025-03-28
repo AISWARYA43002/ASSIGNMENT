@@ -1,0 +1,47 @@
+body{
+    background-image: url("IMAGES/book.webp");
+    background-size: cover;
+}
+.container{
+    width: 10%;
+    background-color:#FFFF99  ;
+    padding: 100px;
+    margin-top: 150PX;
+    margin-left: 600px;
+    height: 15em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    padding-top: 35px;
+    
+    
+}
+#logg{
+    background-color:antiquewhite ;
+    width: 70%;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.navigation {
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center; /* Centers items vertically */
+        margin-top: 1%;
+        width: auto; /* Allows content to fit naturally */
+        padding-right: 20px; /* Optional: Adds spacing from the right */
+    }
+    
+
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: solid;
+    border-color:black;
+    padding: 10px;
+    color:black;
+   margin: 5px;
+}
+.navigation a:hover{
+    background-color: rgb(229, 236, 24);
+    color: black;
+}
